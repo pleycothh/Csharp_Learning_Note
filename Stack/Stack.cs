@@ -28,13 +28,20 @@ namespace Stack
 
             // append object at the top update
             // step 1. up casting
-           // if (obj != null)
-           // { throw new InvalidOperationException("can not add empty object to stack"); }
+            // if (obj != null)
+            // { throw new InvalidOperationException("can not add empty object to stack"); }
 
-        
-         _list.Add(obj);
+            try
+            {
+                _list.Add(obj);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+         
 
-            Console.WriteLine( "add success"+ _list[(_list.Count - 1)]);
+           // Console.WriteLine( "add success"+ _list[(_list.Count - 1)]);
 
 
 
@@ -46,10 +53,12 @@ namespace Stack
 
         public object Pop()
         {
+            int index = _list.Count - 1;
+
             // return latest updated object
-            object temp = _list[(_list.Count -1)];
-            _list.RemoveAt((_list.Count - 1)); // remove at will remove index
-            Console.WriteLine("remove "+ _list.Count);
+            object temp = _list[index];
+            _list.RemoveAt(index); // remove at will remove index
+            //Console.WriteLine("remove "+ _list.Count);
             return temp;
             
         }
@@ -57,7 +66,7 @@ namespace Stack
         public void Clear()
         {
             // clear all object from the staci
-         
+            _list.Clear();
         }
 
 
