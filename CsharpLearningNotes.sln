@@ -7,17 +7,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stack", "Stack\Stack.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Overriding", "Overriding\Overriding.csproj", "{4F10A6D2-1DBC-4810-988D-47378A622A5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Object", "Object\Object.csproj", "{0BD1CCE1-9A41-47F0-86D6-5DFB2729A7C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Object", "Object\Object.csproj", "{0BD1CCE1-9A41-47F0-86D6-5DFB2729A7C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxing", "Boxing\Boxing.csproj", "{C78C5C14-B38B-414A-A3CF-DFB23A3C1FB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boxing", "Boxing\Boxing.csproj", "{C78C5C14-B38B-414A-A3CF-DFB23A3C1FB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor", "Constructor\Constructor.csproj", "{443EAE58-89AD-4D27-87F6-8DBD9887F6AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructor", "Constructor\Constructor.csproj", "{443EAE58-89AD-4D27-87F6-8DBD9887F6AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casting", "Casting\Casting.csproj", "{D7C094A1-A04E-4756-BECE-7316D8D1DB1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Casting", "Casting\Casting.csproj", "{D7C094A1-A04E-4756-BECE-7316D8D1DB1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceAmazon", "InheritanceAmazon\InheritanceAmazon.csproj", "{48BC0D98-31B0-4B7C-8154-EF9173593C1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InheritanceAmazon", "InheritanceAmazon\InheritanceAmazon.csproj", "{48BC0D98-31B0-4B7C-8154-EF9173593C1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{40212E74-6D60-40CC-B122-0E562A5FDE1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{40212E74-6D60-40CC-B122-0E562A5FDE1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatBot", "ChatBot\ChatBot.csproj", "{134C5753-E75C-4433-8337-3F1AC9C0EEBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClassMembers", "AbstractClassMembers\AbstractClassMembers.csproj", "{FDAC758C-3256-406F-AD94-56A452CF33BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{40212E74-6D60-40CC-B122-0E562A5FDE1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40212E74-6D60-40CC-B122-0E562A5FDE1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40212E74-6D60-40CC-B122-0E562A5FDE1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{134C5753-E75C-4433-8337-3F1AC9C0EEBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{134C5753-E75C-4433-8337-3F1AC9C0EEBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{134C5753-E75C-4433-8337-3F1AC9C0EEBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{134C5753-E75C-4433-8337-3F1AC9C0EEBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDAC758C-3256-406F-AD94-56A452CF33BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDAC758C-3256-406F-AD94-56A452CF33BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDAC758C-3256-406F-AD94-56A452CF33BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDAC758C-3256-406F-AD94-56A452CF33BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
