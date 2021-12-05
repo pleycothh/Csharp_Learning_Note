@@ -19,11 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InheritanceAmazon", "Inheri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{40212E74-6D60-40CC-B122-0E562A5FDE1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatBot", "ChatBot\ChatBot.csproj", "{134C5753-E75C-4433-8337-3F1AC9C0EEBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatBot", "ChatBot\ChatBot.csproj", "{134C5753-E75C-4433-8337-3F1AC9C0EEBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClassMembers", "AbstractClassMembers\AbstractClassMembers.csproj", "{FDAC758C-3256-406F-AD94-56A452CF33BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClassMembers", "AbstractClassMembers\AbstractClassMembers.csproj", "{FDAC758C-3256-406F-AD94-56A452CF33BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{8BD80B64-3B75-429E-BCC4-C894860D2A83}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testability", "Testability\Testability.csproj", "{65E2F391-F527-4004-B155-35AE27771F60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testability.Test", "Testability.Test\Testability.Test.csproj", "{2E453225-D2DE-48E2-9A7A-BA73C92D4B41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,10 +73,14 @@ Global
 		{FDAC758C-3256-406F-AD94-56A452CF33BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDAC758C-3256-406F-AD94-56A452CF33BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDAC758C-3256-406F-AD94-56A452CF33BA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8BD80B64-3B75-429E-BCC4-C894860D2A83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8BD80B64-3B75-429E-BCC4-C894860D2A83}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8BD80B64-3B75-429E-BCC4-C894860D2A83}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8BD80B64-3B75-429E-BCC4-C894860D2A83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65E2F391-F527-4004-B155-35AE27771F60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E2F391-F527-4004-B155-35AE27771F60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E2F391-F527-4004-B155-35AE27771F60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E2F391-F527-4004-B155-35AE27771F60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E453225-D2DE-48E2-9A7A-BA73C92D4B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E453225-D2DE-48E2-9A7A-BA73C92D4B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E453225-D2DE-48E2-9A7A-BA73C92D4B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E453225-D2DE-48E2-9A7A-BA73C92D4B41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
