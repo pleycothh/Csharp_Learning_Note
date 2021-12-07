@@ -8,16 +8,18 @@ namespace Testability
 {
     public class Order
     {
-        private int _isShipped;
-        private float _totalPrice;
-        private DateTime _orderTime;
-    }
+        public int IsShipped;
+        public float TotalPrice;
+        public DateTime OrderTime;
 
-    public Order(int IsShipped, DateTime OrderTime, float TotalPrice)
-    {
-        this._isShipped = new IsShipped();
-        _taotalPrice = new TotalPrice;
-        _ordertime = OrderTime;
 
+
+        public Order(int IsShipped, DateTime OrderTime, float TotalPrice)
+        {
+            IsShipped = IsShipped;
+            TotalPrice = TotalPrice;
+            OrderTime = OrderTime;
+
+        }
     }
 }

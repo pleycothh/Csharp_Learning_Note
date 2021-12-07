@@ -8,11 +8,13 @@ namespace Testability
 {
     public class OrderProcessor
     {
-        private readonly ShippingCalculator _shippingCalculator; // pass the calculator class from outside
+        private readonly IShippingCalculator _shippingCalculator; // pass the calculator class from outside
+        // make interface here
 
-        public OrderProcessor()
+        public OrderProcessor(IShippingCalculator shippingCalculator)
         {
-            _shippingCalculator = new ShippingCalculator(); // init the outside ship calculator class
+            _shippingCalculator = shippingCalculator; // init the outside ship calculator class
+           
         }
 
 

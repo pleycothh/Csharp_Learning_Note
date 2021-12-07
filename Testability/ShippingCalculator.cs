@@ -6,10 +6,17 @@ using System.Threading.Tasks;
 
 namespace Testability
 {
-    public class ShippingCalculator
+
+
+    public interface IShippingCalculator // need type again
     {
+        float CalculateShipping(Order order);
+
+    }
 
 
+    public class ShippingCalculator: IShippingCalculator
+    {
         public float CalculateShipping(Order order)
         {
             if(order.TotalPrice < 30f)
