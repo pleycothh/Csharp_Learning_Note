@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-07T01:51:33.946Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="ebOCTg6pMBJU64jKTCza" version="15.9.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-12-07T01:55:15.097Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="GYuvyuGByr709TOo00Kn" version="15.9.1" type="github" pages="4">
   <diagram id="M9CNCHa4zVw4FZ072GeC" name="Project Plan">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -226,6 +226,9 @@
         <mxCell id="1KL_BrZlrNyv6cS1wxAE-0" value="Search Student information by Key word" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="BgavjCjCeQE0ryiQORCU-1" vertex="1">
           <mxGeometry x="360" y="440" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="bvHN3pB3HeXEX9wp0pTJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BgavjCjCeQE0ryiQORCU-1" source="1KL_BrZlrNyv6cS1wxAE-1" target="bvHN3pB3HeXEX9wp0pTJ-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1KL_BrZlrNyv6cS1wxAE-1" value="Display &amp;nbsp;statistics report" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="BgavjCjCeQE0ryiQORCU-1" vertex="1">
           <mxGeometry x="520" y="280" width="120" height="60" as="geometry" />
         </mxCell>
@@ -250,11 +253,17 @@
         <mxCell id="h0Y9qpYt6W2PzzpY1FDF-0" value="Display full student Information" style="rounded=0;whiteSpace=wrap;html=1;" parent="635FVv6ewYpFWvId1X9W-0" vertex="1">
           <mxGeometry x="20" y="380" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="bvHN3pB3HeXEX9wp0pTJ-0" value="Display number of student" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="635FVv6ewYpFWvId1X9W-0">
+          <mxGeometry x="20" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="KiFmlnmmI92PAN9z10ap-6" value="Functional requirements" style="swimlane;" parent="BgavjCjCeQE0ryiQORCU-1" vertex="1">
           <mxGeometry x="-30" y="30" width="730" height="600" as="geometry" />
         </mxCell>
         <mxCell id="CG_lc4gguiDd-eUMjHJF-0" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=20;fillColor=#FF3333;" parent="KiFmlnmmI92PAN9z10ap-6" vertex="1">
           <mxGeometry x="370" y="160" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="bvHN3pB3HeXEX9wp0pTJ-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KiFmlnmmI92PAN9z10ap-6">
+          <mxGeometry x="550" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BgavjCjCeQE0ryiQORCU-3" value="Check withdrawn student" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" parent="BgavjCjCeQE0ryiQORCU-1" vertex="1">
           <mxGeometry x="360" y="200" width="120" height="60" as="geometry" />
