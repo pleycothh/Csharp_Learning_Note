@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-09T11:21:22.827Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="aejgDwFespiAU2HB62Ye" version="15.9.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-12-09T11:37:51.466Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="GMKj5KvE0zaE4amlD6q6" version="15.9.4" type="github" pages="5">
   <diagram id="M9CNCHa4zVw4FZ072GeC" name="Project Plan">
     <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -610,7 +610,7 @@
           <mxGeometry y="34" width="390" height="26" as="geometry" />
         </mxCell>
         <mxCell id="no0oBazHcIlJNZaIMWjJ-14" value="PersistentData" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="no0oBazHcIlJNZaIMWjJ-1">
-          <mxGeometry x="50" y="390" width="390" height="216" as="geometry" />
+          <mxGeometry x="50" y="380" width="390" height="216" as="geometry" />
         </mxCell>
         <mxCell id="no0oBazHcIlJNZaIMWjJ-16" value="+ parser: StudentFileParser();" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="no0oBazHcIlJNZaIMWjJ-14">
           <mxGeometry y="26" width="390" height="26" as="geometry" />
@@ -633,7 +633,7 @@
         <mxCell id="no0oBazHcIlJNZaIMWjJ-35" value="+ Deserialise(): async void " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="no0oBazHcIlJNZaIMWjJ-14">
           <mxGeometry y="164" width="390" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="no0oBazHcIlJNZaIMWjJ-36" value="+ GetStudent(): List&lt;StudentData&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="no0oBazHcIlJNZaIMWjJ-14">
+        <mxCell id="no0oBazHcIlJNZaIMWjJ-36" value="+ Serialise(): async void    " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="no0oBazHcIlJNZaIMWjJ-14">
           <mxGeometry y="190" width="390" height="26" as="geometry" />
         </mxCell>
         <mxCell id="no0oBazHcIlJNZaIMWjJ-22" value="parser = new StudentFileParser();" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="no0oBazHcIlJNZaIMWjJ-1">
