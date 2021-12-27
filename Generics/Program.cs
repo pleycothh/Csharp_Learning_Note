@@ -18,7 +18,7 @@ namespace Generics
     public class Product
     {
         public string Title { get; set; }
-        public string Price { get; set; }
+        public float Price { get; set; }
     }
 
     // where T : Icomparable --> 
