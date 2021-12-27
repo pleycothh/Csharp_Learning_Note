@@ -27,13 +27,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testability", "Testability\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testability.Test", "Testability.Test\Testability.Test.csproj", "{2E453225-D2DE-48E2-9A7A-BA73C92D4B41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{4AFAEF74-B7C5-4B81-9616-00F72F443115}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{4AFAEF74-B7C5-4B81-9616-00F72F443115}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode", "LeetCode\LeetCode.csproj", "{882366E3-5E7C-49DC-8186-6CCF7EEC890C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode", "LeetCode\LeetCode.csproj", "{882366E3-5E7C-49DC-8186-6CCF7EEC890C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensibility", "Extensibility\Extensibility.csproj", "{8CB2F2C0-32EA-4AE7-A2B1-DC49E4DDF03C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodeForMac", "LeetCodeForMac\LeetCodeForMac.csproj", "{35075437-26E3-4B37-BAE4-8D227CDB6E73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{9B5B44CC-BF23-481A-BD15-D1ADBA940CBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Advance", "Advance", "{715AA25C-8F84-4407-AEF4-EDAF7BF05A20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,9 +109,16 @@ Global
 		{35075437-26E3-4B37-BAE4-8D227CDB6E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35075437-26E3-4B37-BAE4-8D227CDB6E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35075437-26E3-4B37-BAE4-8D227CDB6E73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B5B44CC-BF23-481A-BD15-D1ADBA940CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B5B44CC-BF23-481A-BD15-D1ADBA940CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B5B44CC-BF23-481A-BD15-D1ADBA940CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B5B44CC-BF23-481A-BD15-D1ADBA940CBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B5B44CC-BF23-481A-BD15-D1ADBA940CBC} = {715AA25C-8F84-4407-AEF4-EDAF7BF05A20}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1BFF4E0B-676E-4028-94A6-D3D015DE4CAA}
